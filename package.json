@@ -1,0 +1,21 @@
+{
+  "name": "realtime-notification-server",
+  "version": "1.0.0",
+  "description": "This is a server for real-time chat, posts, friend requests, and other notifications in mobile apps.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "pm2-runtime server.js",
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.1"
+  }
+}
